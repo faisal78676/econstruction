@@ -1,5 +1,5 @@
 <?php include_once($_SERVER['DOCUMENT_ROOT'].'\config.php'); ?>
-<?php include ADMIN."services/database.php";?>
+<?php include "../services/database.php";?>
 <?php include "../admin/includes/head.php";?>
     <div class="container-fluid">
         <div class="row">

@@ -1,5 +1,5 @@
 <?php include "../../config.php"; ?>
-<?php include ADMIN."services/database.php";?>
+<?php include "../services/database.php";?>
 <?php include "../includes/head.php";
 
     

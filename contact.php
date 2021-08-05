@@ -59,13 +59,12 @@
 			</div>
 
 			<div class="contact-col">
-				<form action="">
-					<input type="text" placeholder="Enter Your Name" required>
-					<input type="email" placeholder="Enter email address" required>
-					<input type="text" placeholder="Enter your type of work" required>
-					<textarea rows="8" placeholder="Message" required></textarea>
-					<button type="submit" class="hero-btn red-btn">Send Message</button>
-
+				<form id="contact_form">
+					<input type="text" name="fname" placeholder="Enter Your Name" required>
+					<input type="email" name="emailId" placeholder="Enter email address" required>
+					<input type="text" name="work" placeholder="Enter your type of work" required>
+					<textarea rows="8" name="messageId" placeholder="Message" required></textarea>
+					<button type="submit" class="hero-btn red-btn" >Send Message</button>
 				</form>
 
 			</div>
@@ -83,44 +82,11 @@
 
 
 
-	
-<section class="footer">
-	<h4>About Us</h4>
-	<p>We collect and analyze information about your general usage of the website, products, services, and courses.<br> We might track your usage patterns to see what features of the website you commonly use.</p>
+	<?php include_once('inc/footer.php');?>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/econstruction.js"></script>
 
-	<div class="icons">
-		<i class="fa fa-facebook"></i>
-		<i class="fa fa-twitter"></i>
-		<i class="fa fa-instagram"></i>
-		<i class="fa fa-whatsapp"></i>
-	</div>
-	<p>Made with<i class="fa fa-heart-o"></i> by Cascade Built</p>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!----JavaScript for Toggle Menu------>
-	<script>
-		var navLinks = document.getElementById("navLinks");
-
-		function showMenu(){
-			navLinks.style.right = "0";
-		}
-		function hideMenu(){
-			navLinks.style.right = "-200px";
-		}
-
-	</script>
 
 </body>
 </html>
