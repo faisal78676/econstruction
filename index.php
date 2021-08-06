@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">	
+	<link rel="stylesheet" href="./css/all.css">	
 	<!-- font awesome 4 cdn-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!------- font awesome---------------------->
@@ -17,6 +20,7 @@
 	<title>Cascade Built</title>
 </head>
 <body>
+	
 	<section class="header">
 		 <?php include_once('inc/header.php');?>
 		<div class="text-box">

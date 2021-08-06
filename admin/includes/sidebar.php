@@ -20,12 +20,12 @@
                         <span class="sdb-span">Enquiries</span>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="/admin/slideshow.php">
                         <span class="sdb-span"><i class="fas fa-address-card"></i></span>
                         <span class="sdb-span">Slide Show</span>
                         </a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/admin/gallery.php">
                         <span class="sdb-span"><i class="fas fa-images"></i></span>

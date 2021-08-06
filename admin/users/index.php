@@ -1,7 +1,8 @@
 <?php 
 include "../../config.php";
+include "../../services/database.php";
 include "../includes/head.php";
-include "../services/database.php";
+
 
 $query = "SELECT id,username,email FROM users";
 $stmt= $conn->prepare($query);
@@ -45,10 +46,10 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                      echo '<tr>
                                     <td>'.$res["username"].'</td>
                                     <td>'.$res["email"].'</td>
-                                    <td>
-                                        <a href="/admin/users/edit.php/?id='.$res["id"].'" class="btn btn-warning btn-sm" title="Edit"><i class="fas fa-edit"></i></a>
-                                        <button class="btn btn-danger btn-sm delete-user" data-id="'.$res["id"].'" title="Delete"><i class="fas fa-trash-restore-alt"></i></button>
-                                    </td>
+                                    // <td>
+                                    //     <a href="/admin/users/edit.php/?id='.$res["id"].'" class="btn btn-warning btn-sm" title="Edit"><i class="fas fa-edit"></i></a>
+                                    //     <button class="btn btn-danger btn-sm delete-user" data-id="'.$res["id"].'" title="Delete"><i class="fas fa-trash-restore-alt"></i></button>
+                                    // </td>
                                 </tr>';
                                 }
                                 // echo $html;

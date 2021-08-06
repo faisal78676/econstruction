@@ -15,6 +15,14 @@
 	<script src="https://kit.fontawesome.com/332a215f17.js" cross origin="anonymous"></script>
 
 	<title>Cascade Built</title>
+	<style>
+		#resp_show{
+			display:none;
+		}
+		.error{
+			color:red;
+		}
+	</style>
 </head>
 <body>
 	<section class="sub-header">
@@ -66,7 +74,7 @@
 					<textarea rows="8" name="messageId" placeholder="Message" required></textarea>
 					<button type="submit" class="hero-btn red-btn" >Send Message</button>
 				</form>
-
+				<div id="resp_show"></div>				
 			</div>
 
 		</div>
@@ -85,8 +93,8 @@
 	<?php include_once('inc/footer.php');?>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/validate.js"></script>
+	
 	<script src="js/econstruction.js"></script>
-
 
 </body>
 </html>
